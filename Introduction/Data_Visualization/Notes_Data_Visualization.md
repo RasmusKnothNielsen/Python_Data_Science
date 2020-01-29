@@ -6,7 +6,8 @@ Qualitative Data
 - Also known as categorical data
 - Subtypes are nominal data and ordinal data
 
+Quantitative Data is another term for numerical data
 
-
-Common Charts
-- 
+Common Charts in quantitative data
+- Histogrammer
+- Scatter plots
