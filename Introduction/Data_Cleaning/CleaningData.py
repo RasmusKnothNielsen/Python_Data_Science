@@ -29,3 +29,8 @@ print(cleaned_crime['OFFENSE_DESCRIPTION'].unique())
 # Now we check 'DAY_OF_WEEK'
 print(cleaned_crime['DAY_OF_WEEK'].unique())
 # No misspellings here.
+
+# Now let'd frop the location column from the Data Set,
+# since we already have this information in our Lat and Long columns.
+cleaned_crime = cleaned_crime.drop(columns='Location')
+print(cleaned_crime)
